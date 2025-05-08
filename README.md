@@ -31,3 +31,34 @@ This project aims to **optimize Airbnb host profitability in Brooklyn** during t
 - **SQL (MySQL)** – Data extraction, transformation, and profitability calculations
 - **Power BI** – Dashboard creation and interactive visualizations
 - **Excel/CSV** – Data cleaning and initial exploration
+
+---
+
+## SQL Workflow Summary
+
+### Step 1: Data Cleaning & Validation
+**File:** `1.database_cleaning_validation.sql`  
+**Purpose:**  
+- Removed duplicates, standardized null values, validated data types.
+- Checked for missing or extreme values in critical columns (`price`, `availability_365`, `reviews_per_month`).
+
+**Key Output:** A clean dataset ready for transformation and analysis.
+
+### Step 2: Data Enhancement & Transformation
+**File:** `6.insert_data_to_new_columns.sql`  
+**Purpose:**  
+- Created new columns for:
+  - **Estimated Monthly Revenue** = `price * minimum_nights * number_of_reviews`
+  - **Estimated Annual Revenue** = `estimated_monthly_revenue * 12`
+  - **Profitability Tiering** based on revenue quantiles (High, Medium, Low)
+
+**Key Output:** Enriched listings with profitability insights.
+
+### Step 3: Table Joins for Final Analysis
+**File:** `8.join_tables.sql`  
+**Purpose:**  
+- Joined listings data with host and calendar data.
+- Calculated occupancy rates and review frequency.
+- Aggregated revenue and availability by neighborhood, host type, and room type.
+
+**Key Output:** Final analytics-ready table with profitability dimensions.
