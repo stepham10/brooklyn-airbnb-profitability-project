@@ -62,3 +62,43 @@ This project aims to **optimize Airbnb host profitability in Brooklyn** during t
 - Aggregated revenue and availability by neighborhood, host type, and room type.
 
 **Key Output:** Final analytics-ready table with profitability dimensions.
+
+## Business Insights & Recommendations
+
+### 1. High-Revenue Neighborhoods
+- Top: *Williamsburg, Park Slope, Greenpoint, Bedford-Stuyvesant*
+- **Action:** Target ads and upgrades in these areas.
+
+### 2. Room Type Strategy
+- **Entire homes/apts** yield highest returns.
+- **Action:** Recommend entire unit listings where feasible.
+
+### 3. Pricing Strategy
+- Sweet spot: **$150–$250** for listings with frequent reviews.
+- **Action:** Reposition prices into this band during summer.
+
+### 4. Availability Optimization
+- Listings with **>300 available days/year** outperform.
+- **Action:** Maximize availability but avoid >330 days to reduce diminishing returns.
+
+### 5. Host Strategy
+- **Single Listing Hosts (e.g., Emily):**
+  - Price in the $150–$200 range.
+  - Benchmark against high-performing neighborhoods.
+- **Portfolio Managers (e.g., Jose):**
+  - Focus on high-tier listings.
+  - Reprice and reposition underperforming assets.
+
+### 6. Profitability Tiering
+- Segmented into **High, Medium, Low** based on revenue percentiles.
+- **Action:**
+  - Promote high-tier listings.
+  - Enhance medium-tier with amenities/photos.
+  - Consider delisting or repurposing low-tier ones.
+
+## Deliverables
+
+- [x] SQL Queries & Views (cleaning, revenue estimation, joins)
+- [x] Interactive Dashboard (Power BI/Tableau)
+- [x] Business Report & Recommendations (Markdown/PDF)
+- [x] Data Dictionary for all derived fields
