@@ -28,9 +28,10 @@ This project aims to help Airbnb hosts in Brooklyn, NY, optimize profitability d
 
 ## Dashboard Preview
 
-![Brooklyn Airbnb Profitability Dashboard](dashboard.png)
+!dashboard.png
 
 ### Dashboard Features
+![dashboard](https://github.com/user-attachments/assets/d021ea35-9e3e-460c-88fa-9e2fdc034a58)
 
 - **Filters:** Neighborhood, Room Type, Profitability Tier
 - **KPIs:** Avg. Estimated Annual Revenue, Occupancy %, Total Listings
