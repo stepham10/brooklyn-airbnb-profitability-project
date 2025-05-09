@@ -1,10 +1,10 @@
 # Brooklyn Airbnb Profitability Project
 
-## 🏙️ Overview
+## Overview
 
 This project aims to help Airbnb hosts in Brooklyn, NY, optimize profitability during the peak summer travel season (June–August 2025). By analyzing historical Airbnb listing data, we identify trends, pricing strategies, and neighborhood-level insights that can drive smarter decisions for both independent hosts and property managers.
 
-## 🎯 Objectives
+## Objectives
 
 1. Identify high-revenue neighborhoods and room types in Brooklyn.
 2. Determine optimal pricing and availability patterns for peak summer months.
@@ -14,7 +14,7 @@ This project aims to help Airbnb hosts in Brooklyn, NY, optimize profitability d
 
 ---
 
-## 👤 User Personas
+## User Personas
 
 ### Emily (Independent Host)
 - Owns a single listing in Crown Heights.
@@ -26,11 +26,11 @@ This project aims to help Airbnb hosts in Brooklyn, NY, optimize profitability d
 
 ---
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
-![Brooklyn Airbnb Profitability Dashboard](./33448e29-ea49-4959-9601-03ff588adbeb.png)
+![Brooklyn Airbnb Profitability Dashboard](dashboard.png)
 
-### 🔍 Dashboard Features
+### Dashboard Features
 
 - **Filters:** Neighborhood, Room Type, Profitability Tier
 - **KPIs:** Avg. Estimated Annual Revenue, Occupancy %, Total Listings
@@ -42,7 +42,7 @@ This project aims to help Airbnb hosts in Brooklyn, NY, optimize profitability d
 
 ---
 
-## 🧮 Methodology
+## Methodology
 
 ### 🔧 Data Preparation
 - Source: NYC Airbnb Open Data from Kaggle
@@ -52,7 +52,7 @@ This project aims to help Airbnb hosts in Brooklyn, NY, optimize profitability d
   - `Profitability Tier` based on revenue distribution
   - `Review Frequency` = `number_of_reviews / (listing_age_in_years)`
 
-### 📈 SQL Analysis (Key Metrics)
+### SQL Analysis (Key Metrics)
 - Average revenue by neighborhood and room type
 - Host concentration: single vs. multi-listing impact
 - Occupancy proxy via `reviews_per_month`
@@ -60,7 +60,7 @@ This project aims to help Airbnb hosts in Brooklyn, NY, optimize profitability d
 
 ---
 
-## 💡 Insights & Recommendations
+## Insights & Recommendations
 
 ### 1. Neighborhood Profitability
 - **East Flatbush** and **Park Slope** are top neighborhoods by average annual revenue.
