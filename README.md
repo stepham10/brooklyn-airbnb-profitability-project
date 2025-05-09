@@ -45,7 +45,7 @@ This project aims to help Airbnb hosts in Brooklyn, NY, optimize profitability d
 
 ## Methodology
 
-### 🔧 Data Preparation
+### Data Preparation
 - Source: NYC Airbnb Open Data from Kaggle
 - Focused on Brooklyn listings only
 - Created new fields:
